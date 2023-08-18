@@ -100,12 +100,13 @@ const processPrep = async(dataset, nodes) => {
     svg = d3.select('body').append('svg')
         .attr('viewBox', [-width/2,-height/2, width, height]);
     legendG = svg.append("g").attr("class","legendG")
+        // .attr('transform', 'translate('+-width/5+','+-height*2+'')
 
     subtitle = svg
         .append("foreignObject")
-            .attr("width", 300)
-            .attr("height", 200)
-            .attr("x", width/4)
+            .attr("width", 500)
+            .attr("height", 280)
+            .attr("x", width/5)
             .attr("y", -height/2+100)
             .append("xhtml:div")
         .attr("class","subtitle")
