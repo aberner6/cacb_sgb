@@ -1,0 +1,885 @@
+{
+  "nodes":
+[
+ {
+   "id": 1,
+   "tags": [1],
+   "type": 1,
+   "first": 1,
+   "symb": "symb/clouds/low",
+   "symbNum": 6,
+   "size": 90
+ },
+ {
+   "id": 2,
+   "tags": [2],
+   "type": 2,
+   "first": 1,
+   "symb": "symb/CO2",
+   "symbNum": 2,
+   "size": 70
+ },
+ {
+   "id": 3,
+   "tags": [3],
+   "type": 3,
+   "first": 1,
+   "symb": "symb/clouds/high",
+   "symbNum": 7,
+   "size": 110
+ },
+ {
+   "id": 4,
+   "tags": [4],
+   "type": 4,
+   "first": 1,
+   "symb": "symb/radiance",
+   "symbNum": 2,
+   "size": 140
+ },
+ {
+   "id": 5,
+   "tags": [5],
+   "type": 5,
+   "first": 1,
+   "symb": "symb/tipping",
+   "symbNum": 3,
+   "size": 130
+ },
+ {
+   "id": 6,
+   "tags": [6],
+   "type": 6,
+   "first": 1,
+   "symb": "symb/energy",
+   "symbNum": 2,
+   "size": 120
+ },
+ {
+   "id": 7,
+   "tags": [7],
+   "type": 7,
+   "first": 1,
+   "symb": "symb/storage",
+   "symbNum": 1,
+   "size": 140
+ },
+ {
+   "id": 8,
+   "tags": [8],
+   "type": 18,
+   "first": 1,
+   "symb": "symb/comms",
+   "symbNum": 2,
+   "size": 80
+ },
+ {
+   "id": 9,
+   "tags": [9],
+   "type": 19,
+   "first": 1,
+   "symb": "symb/wind",
+   "symbNum": 6,
+   "size": 100
+ },
+ {
+   "id": 10,
+   "tags": [10],
+   "type": 21,
+   "first": 1,
+   "symb": "symb/humidity",
+   "symbNum": 2,
+   "size": 100
+ },
+ {
+   "id": 11,
+   "tags": [11],
+   "type": 23,
+   "first": 1,
+   "symb": "symb/sensors",
+   "symbNum": 2,
+   "size": 100
+ },
+ {
+   "id": 12,
+   "tags": [12],
+   "type": 25,
+   "first": 1,
+   "symb": "symb/process",
+   "symbNum": 1,
+   "size": 80
+ },
+ {
+   "id": 13,
+   "tags": [13],
+   "type": 27,
+   "first": 1,
+   "symb": "symb/weather",
+   "symbNum": 3,
+   "size": 100
+ },
+ {
+   "id": 14,
+   "tags": [1],
+   "type": 1,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ },
+ {
+   "id": 15,
+   "tags": [1],
+   "type": 1,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ },
+ {
+   "id": 16,
+   "tags": [1],
+   "type": 1,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ },
+ {
+   "id": 17,
+   "tags": [1],
+   "type": 1,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ },
+ {
+   "id": 18,
+   "tags": [2,1],
+   "type": 2,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 19,
+   "tags": [2],
+   "type": 2,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 20,
+   "tags": [2],
+   "type": 2,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 21,
+   "tags": [3,2],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 22,
+   "tags": [3],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 23,
+   "tags": [3,2],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 24,
+   "tags": [3],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 25,
+   "tags": [3,2],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 26,
+   "tags": [3],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 27,
+   "tags": [3,2],
+   "type": 3,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 28,
+   "tags": [4,3],
+   "type": 4,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 29,
+   "tags": [4],
+   "type": 4,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 30,
+   "tags": [4,3],
+   "type": 4,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 31,
+   "tags": [4],
+   "type": 4,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 32,
+   "tags": [5],
+   "type": 5,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 33,
+   "tags": [5,4],
+   "type": 5,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 34,
+   "tags": [5,4],
+   "type": 5,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ }, 
+ {
+   "id": 35,
+   "tags": [6],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ }, 
+ {
+   "id": 36,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 37,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 38,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 39,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 40,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 41,
+   "tags": [6,4],
+   "type": 6,
+   "first": 0,
+   "symb": "symb/energy",
+   "symbNum": 1
+ },
+ {
+   "id": 42,
+   "tags": [7],
+   "type": 7,
+   "first": 0,
+   "symb": "symb/storage",
+   "symbNum": 2
+ },
+ {
+   "id": 43,
+   "tags": [6,7],
+   "type": 7,
+   "first": 0,
+   "symb": "symb/storage",
+   "symbNum": 2
+ },
+ {
+   "id": 45,
+   "tags": [2,6,7],
+   "type": 8,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ }, 
+ {
+   "id": 46,
+   "tags": [2,6,7],
+   "type": 8,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 47,
+   "tags": [2,6,7],
+   "type": 8,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ }, 
+ {
+   "id": 49,
+   "tags": [3,2],
+   "type": 10,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 50,
+   "tags": [4,3],
+   "type": 11,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 51,
+   "tags": [5,4],
+   "type": 12,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 52,
+   "tags": [5,4,2],
+   "type": 13,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 53,
+   "tags": [5,4,2],
+   "type": 13,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 54,
+   "tags": [5,4,2],
+   "type": 13,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 55,
+   "tags": [1,2],
+   "type": 14,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ }, 
+ {
+   "id": 56,
+   "tags": [3,2],
+   "type": 15,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 57,
+   "tags": [4,3],
+   "type": 16,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 58,
+   "tags": [5,4],
+   "type": 17,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 59,
+   "tags": [5,4],
+   "type": 17,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 60,
+   "tags": [8],
+   "type": 18,
+   "first": 0,
+   "symb": "symb/comms",
+   "symbNum": 2
+ },
+ {
+   "id": 61,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 62,
+   "tags": [1,2],
+   "type": 14,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ }, 
+ {
+   "id": 63,
+   "tags": [3,2],
+   "type": 15,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 64,
+   "tags": [4,3],
+   "type": 16,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 65,
+   "tags": [5,4],
+   "type": 17,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 66,
+   "tags": [5,4],
+   "type": 17,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 67,
+   "tags": [8],
+   "type": 18,
+   "first": 0,
+   "symb": "symb/comms",
+   "symbNum": 2
+ },
+ {
+   "id": 68,
+   "tags": [9,5],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 69,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 70,
+   "tags": [9,1],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 71,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 72,
+   "tags": [9,3],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 73,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 74,
+   "tags": [9,8],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 75,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 76,
+   "tags": [9,8],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ }, 
+ {
+   "id": 77,
+   "tags": [9],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 78,
+   "tags": [9,8],
+   "type": 19,
+   "first": 0,
+   "symb": "symb/wind",
+   "symbNum": 6
+ },
+ {
+   "id": 79,
+   "tags": [8,5],
+   "type": 20,
+   "first": 0,
+   "symb": "symb/comms",
+   "symbNum": 2
+ },
+ {
+   "id": 80,
+   "tags": [10,8],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 81,
+   "tags": [10],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 82,
+   "tags": [10,8],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 83,
+   "tags": [10],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 84,
+   "tags": [10,8],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 85,
+   "tags": [10],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 86,
+   "tags": [10,8],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 87,
+   "tags": [10],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 88,
+   "tags": [10,8],
+   "type": 21,
+   "first": 0,
+   "symb": "symb/humidity",
+   "symbNum": 2
+ },
+ {
+   "id": 89,
+   "tags": [10,8],
+   "type": 22,
+   "first": 0,
+   "symb": "symb/comms",
+   "symbNum": 2
+ },
+ {
+   "id": 90,
+   "tags": [11,7],
+   "type": 23,
+   "first": 0,
+   "symb": "symb/sensors",
+   "symbNum": 2
+ },
+ {
+   "id": 91,
+   "tags": [10,8,11],
+   "type": 24,
+   "first": 0,
+   "symb": "symb/comms",
+   "symbNum": 2
+ },
+ {
+   "id": 92,
+   "tags": [12],
+   "type": 25,
+   "first": 0,
+   "symb": "symb/process",
+   "symbNum": 1
+ },
+ {
+   "id": 93,
+   "tags": [7,12,10,8,11,6,2],
+   "type": 26,
+   "first": 0,
+   "symb": "symb/storage",
+   "symbNum": 1
+ },
+ {
+   "id": 94,
+   "tags": [13],
+   "type": 27,
+   "first": 0,
+   "symb": "symb/weather",
+   "symbNum": 3
+ },
+ {
+   "id": 95,
+   "tags": [5,4,2],
+   "type": 28,
+   "first": 0,
+   "symb": "symb/CO2",
+   "symbNum": 2
+ },
+ {
+   "id": 96,
+   "tags": [1,2],
+   "type": 29,
+   "first": 0,
+   "symb": "symb/clouds/low",
+   "symbNum": 6
+ }, 
+ {
+   "id": 97,
+   "tags": [3,2],
+   "type": 30,
+   "first": 0,
+   "symb": "symb/clouds/high",
+   "symbNum": 7
+ },
+ {
+   "id": 98,
+   "tags": [4,3],
+   "type": 31,
+   "first": 0,
+   "symb": "symb/radiance",
+   "symbNum": 2
+ },
+ {
+   "id": 99,
+   "tags": [5,4],
+   "type": 32,
+   "first": 0,
+   "symb": "symb/tipping",
+   "symbNum": 3
+ },
+ {
+   "id": 100,
+   "tags": [13,5],
+   "type": 33,
+   "first": 0,
+   "symb": "symb/weather",
+   "symbNum": 3
+ },
+ {
+   "id": 101,
+   "tags": [13,5],
+   "type": 33,
+   "first": 0,
+   "symb": "symb/weather",
+   "symbNum": 3
+ },
+ {
+   "id": 102,
+   "tags": [11],
+   "type": 23,
+   "first": 0,
+   "symb": "symb/sensors",
+   "symbNum": 2
+ }
+],
+  "tags":[
+       {
+          "tagID": 1,
+          "tag": "low clouds",
+          "loc": 3
+       },
+       {
+          "tagID": 2,
+          "tag": "CO2",
+          "loc": 2
+       },
+       {
+          "tagID": 3,
+          "tag": "high clouds",
+          "loc": 1
+       },
+       {
+          "tagID": 4,
+          "tag": "radiance",
+          "loc": 4
+       },
+       {
+          "tagID": 5,
+          "tag": "tipping",
+          "loc": 7
+       },
+       {
+          "tagID": 6,
+          "tag": "energy",
+          "loc": 8
+       },
+       {
+          "tagID": 7,
+          "tag": "storage",
+          "loc": 9
+       },
+       {
+          "tagID": 8,
+          "tag": "communications",
+          "loc": 7
+       },
+       {
+          "tagID": 9,
+          "tag": "wind",
+          "loc": 2
+       },
+       {
+          "tagID": 10,
+          "tag": "humidity",
+          "loc": 5
+       },
+       {
+          "tagID": 11,
+          "tag": "sensors",
+          "loc": 8
+       },
+       {
+          "tagID": 12,
+          "tag": "process",
+          "loc": 7
+       },
+       {
+          "tagID": 13,
+          "tag": "weather",
+          "loc": 6
+       }
+    ]
+}
