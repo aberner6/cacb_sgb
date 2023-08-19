@@ -3,7 +3,7 @@ var width, height;
 var nodes = [];
 var tagTable = [];
 
-var svg, g, node, text, link, img, subtitle, infoHeadline, infoSymbol, infoText, legendText, legendSymbol, legendDiv;
+var svg, g, node, text, link, img, subtitle, infoHeadline, infoSymbol, infoText, infoRefs, legendText, legendSymbol, legendDiv;
 var liveLinks = [];
 var liveNodes = [];
 var liveTopics = [];
@@ -136,6 +136,16 @@ const processPrep = async(dataset, nodes) => {
             .attr("y", 150)
             .append("xhtml:div")
         .attr("class","infoText")
+        .style("color","none")
+        .html(whichNum);
+    infoRefs = svg
+        .append("foreignObject")
+            .attr("width", 100)
+            .attr("height", 100)
+            .attr("x", width/4+60)
+            .attr("y", 250)
+            .append("xhtml:div")
+        .attr("class","infoRefs")
         .style("color","none")
         .html(whichNum);
 
@@ -576,7 +586,8 @@ function restart(liveLinks, liveNodes, liveFirsts, whichNum){
         .restart()
 }
 var names = ["low clouds","CO2","high clouds","radiance","tipping points","energy","storage","communications","wind","humidity","sensors","processors","weather"]
-var paragraphs = ["low clouds are the singlemost blah di blah","CO2 are the singlemost blah di blah","high clouds are the singlemost blah di blah","radiance are the singlemost blah di blah","tipping points are the singlemost blah di blah","energy are the singlemost blah di blah","storage are the singlemost blah di blah","communications are the singlemost blah di blah","wind are the singlemost blah di blah","humidity are the singlemost blah di blah","sensors","processors are the singlemost blah di blah","weather are the singlemost blah di blah"]
+var paragraphs = ["Clouds regulate the earth's climate. Low, thick clouds block the sunlight, reflecting around 20 percent of the sun's radiance. Yet low clouds are impacted by the rising carbon dioxide. Under the RCP 8.5 scenario, carbon dioxide will rise to 1,100 ppm and higher. At 1,200 ppm, low clouds destabilise and break apart, which in turn leads to an increase in heat by 14 deg. f.","Carbon dioxide (CO₂) is a trace gas in the Earth's atmosphere. It is also a greenhouse gas that is produced as a byproduct of human activities, and it is a driver of the earth's climate changes. Carbon dioxide is the primary pollutant responsible for climate change; continued emissions will lead to increasing global warming, reaching 1.5°C in the near term.","Clouds in the upper atmosphere let the sunlight stream through. As carbon dioxide increases and temperature increases, low clouds break apart and shift upward, becoming high clouds. High level clouds make the Earth’s attempt to cool itself more difficult as they emit infrared radiation and thus warm the surface.","At Earth's average distance from the Sun (about 150 million kilometers), the average intensity of solar energy reaching the top of the atmosphere directly facing the Sun is about 1,360 watts per square meter, according to measurements made by the most recent NASA satellite missions. If low thick clouds are present, they can reflect around 20 percent of the sun's radiance away from earth.","Tipping points are thresholds where a tiny change could push a system into a completely new state, creating an irreversible shift to a hotter world. The loss of permafrost is one such tipping point as when carbon-rich soils thaw, they lead to a sudden increase in CO₂ emissions and methane, that would lead to more warming, that would continue the cascade of tipping points.","Internal infrastructure for cooling down servers (with water and air) requires energy. Global data centres use more energy than the UK, and by 2025 they will use more than 20% of our global energy supply. Each cloud server that uses non-green electricity emits 487 kg CO₂ per year. Though installing servers in cold locations can help, those locations are themselves warming as CO₂ is emitted.","Data about clouds is unimaginably massive, as in order to observe clouds around the entire world, satellites need to detect cloud interactions across time and space (small particles to storm clouds). A single data set about clouds contains 200 variables on clouds in 280 km × 280 km every 3 h starting in July 1983. The entire volume of data in NASA's archive will reach 247 PB by 2025.","Scientists rely on systems that communicate remotely, through radio frequencies, and on downloading and transferring information remotely. Yet, increasing winds and extreme weather destroys radio towers, flooding threatens internet cable landing sites, and increased moisture impacts radio frequencies themselves.","The world winds are speeding up: global average wind speed has increased from about 7 mph to about 7.4 mph in less than 10 years. Changes in how much sunlight is absorbed or reflected by the surface of the Earth leads to differential heating, which influences the direction and strength of wind patterns. Strong winds can be destructive of any man-made infrastructure.","Specific humidity, the amount of water vapour in the air has increased – as expected in a warming world, where the air has warmed so it is able to hold more water vapour. Humidity has an impact on signal transmission of satellites as their X-band frequency, which gives better resolution will degrade as a result of increasing moisture in the atmosphere.","Sensors are integral to how scientists monitor and observe the earth. The data that they create is the basis for modelling how our earth's climate will change in the near and far futures. Yet as storms become more frequent and intense, sensors are destroyed, their carriers (such as commercial airplanes) pause, and travel to maintain their sites changes in the face of melting ice and floods.","Centres for future climate modelling, weather forecasts and atmospheric monitoring use supercomputing to perform simulations from large amounts of data collected from weather stations around the world. They require up to 100 petabytes of data to run, using historical data to simulate the possible futures.","We rely on weather forecasts to make everyday decisions, it influences and impacts everything we know. We are experiencing more and more unusual weather, extreme weather relative to preindustrial conditions. Forecasting weather requires billions of data points and an entire complex of functioning data observations over land and air, which in and of itself is impacted by the changing weather."]
+var references = ["https://www.nature.com/articles/s41561-019-0310-1","https://www.ipcc.ch/report/ar6/syr/","https://www.mpg.de/789486/F001_Focus_016-023.pdf","https://earthobservatory.nasa.gov/features/EnergyBalance/page2.php","https://e360.yale.edu/features/as-climate-changes-worsens-a-cascade-of-tipping-points-looms","https://www.dtu.dk/english/news/all-news/nyhed?id=68360e44-e0ca-480c-ac4e-7d7fcaf573da","https://www.ncei.noaa.gov/products/international-satellite-cloud-climatology","https://www.mckinsey.com/capabilities/sustainability/our-insights/will-infrastructure-bend-or-break-under-climate-stress","https://www.scientificamerican.com/article/the-worlds-winds-are-speeding-up/","https://www.jhuapl.edu/news/news-releases/230104-climate-change-remote-sensing-impact","https://www.jhuapl.edu/news/news-releases/230104-climate-change-remote-sensing-impact","https://cloud.google.com/blog/products/data-analytics/new-climate-model-data-now-google-public-datasets","https://jamesbridle.com/books/new-dark-age"]
 var infoSymWidth = symWidth*2;
 var infoSymHeight = symHeight*2;
 function addInfo(id, symb){
@@ -587,6 +598,10 @@ function addInfo(id, symb){
     infoText
         .style("color","white")
         .html(paragraphs[id-1]);
+
+    infoRefs
+        .style("color","white")
+        .html(references[id-1])
 
     infoSymbol
         .attr('xlink:href', symb+'/'+1+'.png')
